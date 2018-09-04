@@ -1,0 +1,481 @@
+*{margin: 0; padding: 0;}
+
+.nav1 {
+	background-color: #373C49;
+	height: 34px;
+	width: 100%;
+	position: fixed;
+	z-index: 5;
+}
+.nav1trong, .nav2to, .textgiua, 
+	.editor1, .number1, .buyandsell, .footertren, .footerduoi{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.number1, .buyandsell0, .footer0 {
+	position: relative;
+	top: 157px;
+}
+
+.editor {
+	background-color: #FAFAFA;
+	z-index: 1;
+	position: relative;
+	top: 157px;
+}
+
+.nav1trai {
+	display: flex;
+	float: right;
+	margin-top: 5px;
+}
+
+.nav1trai1 a, .nav1trai2 a{
+	color: #C6CCD1;
+	font-size: 15px;
+	margin: 15px;
+	font-weight: 500;
+}
+
+.nav1trai2 a{
+	padding-left: 28px;
+	border-left: 1px solid #C6CCD1;
+}
+
+.nav1trai li {
+	display: inline;
+}
+
+.nav2 {
+	background-color: #1F2532;
+	height: 123px;
+	width: 100%;
+	position: fixed;
+	top: 34px;
+	z-index: 5;
+}
+
+.logo1 {
+	width: 106px;
+	height: 26px;
+}
+
+.nav2to1 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 2%;
+}
+
+.nav2trai, .nav2giua{
+	display: flex;
+}
+
+.backgroundto {
+	background-image: url('https://d2vcd0zmmc2wdz.cloudfront.net/fe/public/homeHero-929073a.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 340px;
+	position: relative;
+	top: 157px;
+}
+
+.textgiua1 {
+	padding-top: 8%;
+}
+
+.textgiua1 h1, .textgiua1 h3 {
+	color: white;
+	padding-bottom: 10px;
+}
+
+.input3 {
+	background-color: #2962FF;
+	height: 50px;
+	width: 153px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+}
+
+.card1 {
+	height: 349px;
+	width: 262px;
+	padding: 30px 15px;
+	border-radius: 3px;
+	border: 1px solid #D3DBE3;
+	margin: 0 15px;
+	background-color: white;
+}
+
+.card1 img {
+	width: 220px;
+	height: 102px;
+	margin: 30px 0px;
+	border: 1px solid #D3DBE3;
+}
+
+.card1inside h6 {
+	color: #088df6;
+	font-size: 17px;
+}
+
+.card1inside p {
+	font-size: 13px;
+}
+
+.card1insideduoi {
+	display: flex;
+	justify-content: space-between;
+}
+
+.editorsection2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 120px;
+}
+
+.footer0 {
+	height: 250px;
+	width: 100%;
+	padding-top: 5%;
+	background-color: #1F2532;
+}
+
+.footer0 a {
+	color: white;
+}
+
+.footer0 li {
+	display: inline;
+}
+
+.footerduoi, .footertren {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footerduoi {
+	margin-top: 35px;
+}
+
+.number11 {
+	height: 330px;
+	padding: 50px 50px;
+}
+
+.buyandsell {
+	height: 340px;
+	width: 100%;
+	padding-top: 90px;
+}
+
+.buyandsell0 {
+	border-top: 1px solid #D3DBE3;
+}
+
+.buyandsell1 {
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+.editorsection2 li{
+	white-space:nowrap;
+	width: 100%;
+	list-style: none;
+	padding: 10px 0px;
+	border-top: 1px solid #D3DBE3;
+}
+
+.editorsection2 span {
+	display: inline-block;
+}
+
+.input6 {
+	width: 144px;
+	height: 50px;
+	border-radius: 2px;
+	border: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.buyandsell1 h4 {
+	text-align: center;
+}
+
+.motdongbutton {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.number11 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.number111 {
+	padding: 0px 60px;
+	text-align: center;
+	height: 80px;
+	border-left: 1px solid #D3DBE3;
+}
+
+.number111 h1 {
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.footertren2 img {
+	width: 27px;
+	height: 27px;
+	margin-left: 20px;
+}
+
+.footertren1 li {
+	margin-right: 20px;
+}
+
+.footerduoi2 li {
+	margin-left: 20px;
+}
+
+#buy1 {
+	background-color: #03A9F4;
+}
+
+#buy2 {
+	background-color: #FF824F;
+}
+#buy3 {
+	background-color: #9575CD;
+}
+#buy4 {
+	background-color: #96BF48
+}
+#buy5 {
+	background-color: #FF9900;
+}
+
+.buyandsell h4 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.nav2giua1 {
+	width: 566px;
+	height: 47px;
+	display: flex;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.input1 {
+	height: 100%;
+	width: 75%;
+	margin: 0px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	padding-left: 20px;
+}
+
+.input2 {
+	width: 25%;
+	height: 100%;
+	margin: 0px;
+	border: none;
+	background-color: white;
+	color: #7F8DA0;
+	font-size: 17px;
+}
+
+.input22 {
+	width: 47px;
+	height: 47px;
+	background-color: #40D45F;
+	border-radius: 3px;
+	border: none;
+	margin-left: 20px;
+}
+
+.input2 img {
+	filter: brightness(50%);
+	width: 15px;
+	height: 15px;
+	margin-left: 30px;
+}
+
+.Browseassets {
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Browseassets img {
+	width: 15px;
+	height: 15px;
+}
+
+.Browseassets a {
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	padding-top: 13px;
+}
+
+.nav2phai a {
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	color: #C6CCD1;
+	margin-right: 20px;
+}
+
+.nav2phai button {
+	width: 100px;
+	height: 45px;
+	border-radius: 3px;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	font-weight: 500;
+}
+
+.editor1 {
+	padding: 80px 0px 80px;
+}
+
+.editorsection1 h5 {
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+.card1insideduoi h6 {
+	font-size: 15px;
+	font-weight: 400;
+	color: #7F8DA0;
+}
+
+.card1insideduoi h4 {
+	font-size: 17px;
+	font-weight: 500;
+	color: black;
+}
+
+.input4 {
+	border-radius: 3px;
+	background-color: transparent;
+	border: 1px solid #2ECC4F;
+	width: 69px;
+	height: 29px;
+	color: #2ECC4F;
+	font-weight: 500;
+}
+
+.editorsection2 h3 {
+	color: #088DF6;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.input5 {
+	width: 87px;
+	height: 43px;
+	background-color: transparent;
+	border-radius: 3px;
+	border: 1px solid #D3DBE3;
+	color: #7F8DA0;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.fe1 {
+	width: 40%;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	overflow: hidden;
+	font-weight: 500;
+	color: #088DF6;
+}
+
+.fe2 {
+	width: 30%;
+	font-weight: 500;
+	color: #7F8DA0;
+}
+
+.fe3 {
+	width: 30%;
+	text-align: right;
+	color: black;
+	font-weight: 500;
+}
+
+.slick-next {
+	right: -20px !important;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_right.svg') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	height: 35px !important;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.slick-prev {
+	left: -20px !important;
+	z-index: 9;
+	background-image: url('https://www.canadapost.ca/cpc/assets/cpc/img/icons/chevron_large_left.svg') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	height: 35px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+	content: none !important;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+	
+}
+
+.slick-dots li button:before {
+	width: 11px !important;
+	height: 11px !important;
+	border-radius: 50%;
+	background-color: #E0E0E0;
+	list-style: none;
+	margin: 6px;
+    -webkit-font-smoothing: antialiased;
+    content: '' !important;
+    opacity: 1 !important;
+    }
+
+.slick-dots li.slick-active button:before {
+    opacity: .75 !important;
+    color: #2ECC4F !important;
+	}
+
+.slick-active button:before {
+	background-color: #2ECC4F !important;
+}
+
+.slick-dots {
+	bottom: -48px !important;
+}
